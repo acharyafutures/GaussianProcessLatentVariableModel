@@ -57,7 +57,8 @@ The folder Thesis_Code consists of different folders as
         └── energies_benzene.xyz
 
 ```
-**DFTB_splitted**, **MD_splitted**, **noise_splitter**, **predicted_splitted_data** contains the files having just one molecule in each of them, which are automatically created when running the code. You need to create these folders manually before running the code.
+**DFTB_splitted**, **MD_splitted**, **noise_splitter**, **predicted_splitted_data** contains the files having just one molecule in each of them, which are automatically created when running the code. 
+**You need to create these folders manually before running the code**.
 
 **xyz_files** contains the molecular trajectories, where initially molecular trajectory and its energies should be kept.
 Make sure to adjust the file name as in tree above. While running the code trajectory of 1 million molecules with name noise_xyz and trajectory of predicted molecules with name predicted_xyz will also be added.
